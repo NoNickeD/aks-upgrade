@@ -95,7 +95,7 @@ az aks nodepool add \
      --node-count 3 \
      --node-vm-size $VM_SIZE_USER \
      --kubernetes-version $VERSION_NEW \
-     --max-pods 110 \
+     --max-pods 60 \
      --zones 1 2 3 \
      --priority Regular \
      --mode User
