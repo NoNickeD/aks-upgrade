@@ -1,9 +1,9 @@
 # AKS Upgrade Cluster
 
-This project contains all steps in order to upgrade an AKS cluster.
+This project contains all steps in order to upgrade an existing AKS cluster, with az cli commands.
 
 0. Finding and defining variables
-1. Upgrade the cluster control plane only to the new version
+1. Upgrade the control plane with the new version
 2. Add new node pools with new version
 3. Cordon and drain the old node pool
 4. Check the application is up and running
